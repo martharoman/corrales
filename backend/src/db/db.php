@@ -3,7 +3,7 @@
     class conexion{
         function con(){
             $host="127.0.0.1";
-            $db="database";
+            $db="Uno";
             $servidor="sa";
             $pass="pacochato";
             $puerto=1433;

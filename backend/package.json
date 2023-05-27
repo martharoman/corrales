@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src --exec babel-node",
-		"build": "babel src -d dist",
-		"start": "node dist"
+    "build": "babel src -d dist",
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,8 @@
     "@babel/node": "^7.22.1",
     "@babel/preset-env": "^7.22.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mssql": "^9.1.1"
   }
 }
